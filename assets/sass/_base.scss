@@ -1,0 +1,60 @@
+body,
+button,
+input,
+textarea {
+	color: $black;
+	font-family:$base-font;
+}
+
+select {
+	font-family: $base-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong{
+	font-family: $header-font;
+	font-weight: 900;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button,
+.fl-button,
+.fl-builder-content a.fl-button,
+.added_to_cart {
+	text-transform: uppercase;
+	background-color: $primary;
+	color: $white;
+	font-family: $header-font;
+}
+
+.fl-builder-content a.fl-button, .fl-builder-content a.fl-button:visited {
+	color: $white;
+}
+
+.fl-builder-content a.fl-button *, .fl-builder-content a.fl-button:visited * {
+	color: $white;
+}
+
+.fl-theme-builder-header #masthead {
+	background-image: url(../images/black-river-harbor.jpg);
+	height: 350px;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.page-template-tpl-builder.fl-theme-builder-header #masthead {
+	height: auto;
+	background: transparent;
+}
+
+.single-tribe_events .site-content > .col-full {
+	margin: 0;
+}

@@ -1,0 +1,96 @@
+/* Colors */
+/* 0, 640px */
+/* 641px, 768px */
+/* 769px, 1024px */
+/* 1025px, 1440px */
+/* 1441px */
+body,
+button,
+input,
+textarea {
+  color: #000000;
+  font-family: "Montserrat", sans-serif; }
+
+select {
+  font-family: "Montserrat", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900; }
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button,
+.fl-button,
+.fl-builder-content a.fl-button,
+.added_to_cart {
+  text-transform: uppercase;
+  background-color: #1073ba;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif; }
+
+.fl-builder-content a.fl-button, .fl-builder-content a.fl-button:visited {
+  color: #ffffff; }
+
+.fl-builder-content a.fl-button *, .fl-builder-content a.fl-button:visited * {
+  color: #ffffff; }
+
+.fl-theme-builder-header #masthead {
+  background-image: url(../images/erwin-sunset.jpg);
+  height: 350px;
+  background-size: cover;
+  background-position: 50% 50%; }
+
+.page-template-tpl-builder.fl-theme-builder-header #masthead {
+  height: auto;
+  background: transparent; }
+
+.single-tribe_events .site-content > .col-full {
+  margin: 0; }
+
+.main-navigation ul li a:hover, .main-navigation ul li:hover > a, .site-title a:hover, a.cart-contents:hover, .site-header-cart .widget_shopping_cart a:hover, .site-header-cart:hover > li > a, .site-header ul.menu li.current-menu-item > a {
+  color: #fff; }
+
+.site-footer {
+  padding: 1.618em 0; }
+  .site-footer .site-info {
+    font-size: 0.7em;
+    padding: 0;
+    text-align: center; }
+    .site-footer .site-info img {
+      display: inline; }
+
+/* Storefront Style Resets related to Page builder */
+.page.page-template-tpl-builder.fl-builder .site-header {
+  margin: 0; }
+
+.page-template-tpl-builder .site-content .col-full {
+  max-width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.page-template-tpl-builder .hentry,
+.page-template-tpl-builder .site-main,
+.page-template-tpl-builder .content-area {
+  margin: 0; }
+
+.home .tribe-events-user-recurrence-toggle {
+  display: none; }
+
+.home .tribe-events-ical {
+  display: none !important; }
+
+.home h2.tribe-events-page-title {
+  font-weight: 900;
+  font-size: 1.618em;
+  color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

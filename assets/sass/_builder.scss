@@ -1,0 +1,29 @@
+/* Storefront Style Resets related to Page builder */
+.page.page-template-tpl-builder.fl-builder .site-header {
+	margin: 0;
+}
+
+.page-template-tpl-builder .site-content .col-full {
+	max-width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.page-template-tpl-builder .hentry,
+.page-template-tpl-builder .site-main,
+.page-template-tpl-builder .content-area {
+	margin: 0;
+}
+
+.home .tribe-events-user-recurrence-toggle {
+	display: none;
+}
+.home .tribe-events-ical {
+	display: none !important;
+}
+
+.home h2.tribe-events-page-title {
+	font-weight: 900;
+	font-size: 1.618em;
+	color: #fff;
+}
